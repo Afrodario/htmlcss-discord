@@ -78,6 +78,10 @@ footer {
 
 /* Regole dell'header */
 
+header {
+    background-color: #3163E0;
+}
+
 .head-row {
     height: 50px;
     line-height: 50px;
@@ -125,7 +129,7 @@ nav a {
 }
 /* Fine regole della navbar */
 
-header {
+#jumbo {
     background-image: url("../img/jumbo.png");
     background-position: center;
     background-size: cover;
@@ -148,7 +152,7 @@ header {
 
 #jumbo .container p {
     font-size: 20px;
-    padding: 25px 95px;
+    padding: 25px 18%;
     line-height: 30px;
 }
 
