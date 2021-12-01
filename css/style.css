@@ -161,7 +161,7 @@ header {
 
 /* Regole delle sezioni */
 
-#item-1 {
+#item-1, #item-3 {
     float: left;
     width: 60%;
 }
@@ -182,4 +182,14 @@ header {
     font-size: 17px;
     font-weight: bold;
     line-height: 25px;
+}
+
+#item-2 {
+    float: right;
+    width: 60%;
+}
+
+.descr-2 {
+    float: left;
+    width: 40%;
 }
