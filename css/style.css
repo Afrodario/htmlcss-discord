@@ -20,8 +20,6 @@ body {
 
 .row {
     border: 1px solid black;
-    height: 50px;
-    line-height: 50px;
 }
 
 .row::after {
@@ -30,6 +28,7 @@ body {
     clear: both;
 }
 
+/* Regole dei pulsanti */
 .button {
     border: 1px solid black;
     border-radius: 25px;
@@ -60,6 +59,13 @@ body {
     font-weight: bold;
 }
 
+a i {
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+/* Fine regole dei pulsanti */
+
 /* Regole di debug */
 .debug {
     border: 1px solid black;
@@ -76,6 +82,12 @@ main {
 }
 
 /* Regole dell'header */
+
+.head-row {
+    border: 1px solid black;
+    height: 50px;
+    line-height: 50px;
+}
 
 #logo {
     float: left;
@@ -143,5 +155,31 @@ header {
     font-size: 20px;
     padding: 25px 95px;
     line-height: 30px;
- 
+}
+
+/* Fine regole del jumbo */
+
+/* Regole delle sezioni */
+
+#item-1 {
+    float: left;
+    width: 60%;
+}
+
+.item-text {
+    float: right;
+    width: 40%;
+    padding: 50px 80px;
+    color: black;
+}
+
+.item-text h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.item-text p {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 25px;
 }
