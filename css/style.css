@@ -20,10 +20,8 @@ body {
 
 .row {
     border: 1px solid black;
-    width: 100%;
     height: 50px;
     line-height: 50px;
-    padding: 0px 10%;
 }
 
 .row::after {
@@ -53,30 +51,33 @@ main {
 
 /* Regole dell'header */
 
-/* Regole della navbar */
 #logo {
     float: left;
+    width: 15%;
 }
 
 #logo img {
     vertical-align: middle;
 }
 
-nav {
-    float: left;
-    padding: 0 20%;
-    line-height: 50px;
-}
-
 #login {
     float: right;
     color: white;
     text-decoration: none;
+    width: 15%;
+    text-align: center;
+}
+/* Regole della navbar */
+
+nav {
+    float: left;
+    line-height: 50px;
+    width: 70%;
+    text-align: center;
 }
 
 nav ul li {
     display: inline;    
-    padding: 0 20px;
     list-style-type: none;
     padding: 20px;
 }
