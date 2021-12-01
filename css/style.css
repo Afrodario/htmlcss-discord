@@ -14,11 +14,6 @@ body {
     width: 80%;
     margin: 0 auto;
     max-width: 1180px;
-    border: 1px solid black;
-}
-
-.row {
-    border: 1px solid black;
 }
 
 .row::after {
@@ -29,7 +24,6 @@ body {
 
 /* Regole dei pulsanti */
 .button {
-    border: 1px solid black;
     border-radius: 25px;
     padding: 10px;
     margin: 10px;
@@ -81,14 +75,10 @@ footer {
     background-color: #23272a;
 }
 
-main {
-    background-color: red;
-}
 
 /* Regole dell'header */
 
 .head-row {
-    border: 1px solid black;
     height: 50px;
     line-height: 50px;
 }
